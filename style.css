@@ -1,12 +1,148 @@
+.container{
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
 .header{
-    margin: auto;
-    max-width: 500px;
+    background-color: #012D63;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.mainer{
-    margin: auto;
-    max-width: 500px;
+.nav-link,
+.nav-link-q,
+.ua,
+.english{
+    color: #C7C7C7;
+    font-size: 24px;
+    font-weight: 300;
 }
-.footer{
-    margin: auto;
-    max-width: 500px;
+.header-wrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header-list{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ua{
+   margin-left: 50px;
+}
+.section-one{
+    background-image: url(./images/nike.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 94px;
+    padding-bottom: 183px;
+}
+.sec-one-logo{
+width: 160px;
+height: 120px;
+}
+.colo-rawe{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 144px;
+    font-weight: 400;
+}
+.section-one-logo{
+    color: #fff;
+    font-family: 'PT Serif', serif;
+    font-size: 48px;
+    margin-top: -30px;
+    font-weight: 400;
+}
+.yourdreamnike{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-weight: 400;
+}
+.section-one-p{
+    width: 508px;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 41px;
+}
+.button-one{
+    padding: 20px 61px;
+    color: #fff;
+    font-size: 24px;
+    background-color: #8E32C6;
+    border: none;
+    border-radius: 10px;
+}
+.section-two{
+    background-image: url(./images/fon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+.sec-two-list{
+    width: 1110px;
+    border: 5px solid #8E32C6;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-two-card-two{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+.two-title{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+}
+.section-three{
+    background-image: url(./images/follers.png), url(./images/fon2.png);
+    background-size: 320px, cover;
+    background-position: left, center;
+    background-repeat: no-repeat;
+    padding-top: 25px;
+    padding-bottom: 110px;
+}
+.sec-three-title{
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 48px;
+}
+.sec-three-card{
+    width: 255px;
+    height: 292px;
+    flex-shrink: 0;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+    text-align: center;
+}
+.sec-three-card-two{
+    width: 255px;
+    height: 292px;
+    flex-shrink: 0;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+    text-align: center; 
 }
