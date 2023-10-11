@@ -118,6 +118,8 @@ height: 120px;
     background-repeat: no-repeat;
     padding-top: 25px;
     padding-bottom: 110px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
 }
 .sec-three-title{
     margin-bottom: 24px;
@@ -128,31 +130,137 @@ height: 120px;
 }
 .sec-three-card{
     width: 255px;
-    height: 292px;
-    flex-shrink: 0;
-    font-family: 'Roboto', sans-serif;
     border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
-    text-align: center;
+    box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+    padding: 49px 10px 29px 13px;
 }
 .sec-three-card-two{
     width: 255px;
-    height: 292px;
-    flex-shrink: 0;
-    font-family: 'Roboto', sans-serif;
     border-radius: 15px;
-    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
-    text-align: center; 
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+    padding: 49px 10px 29px 13px;
 }
 .sec-three-card-three{
     width: 255px;
-    height: 292px;
-    flex-shrink: 0;
-    font-family: 'Roboto', sans-serif;
     border-radius: 15px;
-    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
-    text-align: center; 
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+    padding: 49px 10px 29px 13px;
+}
+.sec-three-list{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-three-comment{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.time{
+    color: #d8d8d8;
+    font-size: 14px;
+}
+.worker-name{
+    display: flex;
+    margin-top: 47px;
+}
+.user-img{
+    margin-right: 5px;
+    width: 31px;
+    height: 31px;
+}
+.worker-user{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 1px;
+}
+.worker-time{
+    color: #d8d8d8;
+    font-size: 12px;
+}
+.order{
+   padding-top: 20px;
+   padding-bottom: 37px;
+   background-image:url(./images/fon1.png) ;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.sec-four-form-title{
+    color: #fff;
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 33px;
+    text-align: center;
+}
+.sec-four-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #8d8d8d;
+}
+.input-one{
+    width: 690px;
+    border-radius: 50px;
+    padding: 12px 25px 13px 25px;
+    margin-bottom: 19px;
+    font-size: 28px;
+}
+.input{
+    width: 580px;
+    padding: 11px 24px;
+    font-size: 24px;
+    margin-bottom: 19px;
+    border-radius: 50px;
+}
+.button-two{
+    color: #fff;
+    font-size: 24px;
+    padding: 20px 49px;
+    background-color: #8E32C6;
+    border: none;
+    border-radius: 16px;
+}
+.footer{  
+    background-color: #021635;
+    padding-top: 45px;  
+    padding-bottom: 45px;  
+}  
+.footer-wrap{  
+    display: flex;  
+    justify-content: space-between;  
+    padding-bottom: 20px;  
+    border-bottom: 1px solid white;  
+    margin-bottom: 20px;  
+}  
+.footer-right{  
+    text-align: right;  
+    text-decoration: solid;  
+}  
+.footer-text{  
+    color: #FFF;  
+    font-size: 24px;  
+    margin-bottom: 10px;  
+}  
+.footer-email{  
+    color: #FFF;  
+font-size: 24px;  
+text-decoration-line: underline;  
+margin-bottom: 10px;  
+}  
+  
+.footer-wrapper{  
+    display: flex;  
+    justify-content: space-between;  
+}  
+.footer-link{  
+    margin-bottom: 10px;  
+}  
+.footer-title{  
+    color: #FFF;  
+    font-size: 24px;  
+    font-family: 'PT Serif', serif;  
+    text-align: right;  
 }
